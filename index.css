@@ -382,8 +382,8 @@ hr {
 .parent {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  gap: 0px 128px;
+  /* grid-template-rows: repeat(5, 1fr); */
+  gap: 0px 60px;
 }
 
 .div1 {
@@ -406,15 +406,18 @@ hr {
   width: 156px;
   height: 36px;
 }
+.div1 p {
+  font-size: 15px;
+}
 
 .div2 {
   grid-row: span 5 / span 5;
   grid-column-start: 4;
-  width: 150px;
+  width: 160px;
   height: 258px;
 }
 .div2 .title p {
-  font-size: 17px;
+  font-size: 15px;
   color: #111111;
 }
 .div2 p {
@@ -429,7 +432,7 @@ hr {
   height: 296px;
 }
 .div3 .title p {
-  font-size: 17px;
+  font-size: 15px;
   color: #111111;
 }
 .div3 p {
@@ -445,7 +448,7 @@ hr {
   height: 171px;
 }
 .div4 .title p {
-  font-size: 17px;
+  font-size: 15px;
   color: #111111;
 }
 .div4 p {
