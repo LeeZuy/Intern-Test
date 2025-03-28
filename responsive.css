@@ -1,0 +1,263 @@
+/* mobile */
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    order: 1;
+  }
+  .navbar-toggler {
+    order: 0;
+  }
+  .navbar-icon {
+    order: 2;
+  }
+  .carousel-item .text h2 {
+    font-size: 20px;
+  }
+  .carousel-item .text {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    text-align: center;
+  }
+  .carousel-item .text p {
+    font-size: 8px;
+  }
+  .text button {
+    width: 100px;
+    height: 30px;
+    font-size: 8px;
+  }
+  .collections {
+    width: 390px;
+    height: 464px;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    display: grid;
+    grid-template-areas:
+      "clothing bags "
+      "clothing sneaker"
+      "sunglasses sneaker";
+    margin: 0 auto;
+    gap: 8px;
+  }
+  .collections button {
+    width: 120px;
+    height: 40px;
+  }
+  .featured h2 {
+    font-size: 36px;
+  }
+  .featured p {
+    font-size: 16px;
+  }
+  .prd1,
+  .prd4 {
+    width: 185px;
+    height: 300px;
+  }
+  .prd3,
+  .prd2 {
+    width: 185px;
+    height: 144px;
+  }
+  .prd1 img,
+  .prd4 img {
+    width: 185px;
+    height: 300px;
+  }
+  .prd3 img,
+  .prd2 img {
+    width: 185px;
+    height: 144px;
+  }
+  .prd1 button,
+  .prd4 button {
+    position: absolute;
+    top: 80%;
+    left: 18%;
+  }
+  .prd2 button {
+    position: absolute;
+    top: 60%;
+    left: 18%;
+  }
+  .prd3 button {
+    position: absolute;
+    top: 60%;
+    left: 18%;
+  }
+  .prd1 {
+    position: relative;
+    grid-area: clothing;
+  }
+  .prd2 {
+    position: relative;
+    grid-area: sunglasses;
+  }
+  .prd3 {
+    position: relative;
+    grid-area: bags;
+  }
+  .prd4 {
+    position: relative;
+    grid-area: sneaker;
+  }
+  .new h2 {
+    font-size: 36px;
+  }
+  .new p {
+    font-size: 16px;
+  }
+
+  .accordion-button::after {
+    content: "+";
+    font-size: 1.2rem;
+    background-image: none !important;
+    transform: none !important;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    content: "-";
+  }
+
+  .end {
+    align-items: center;
+  }
+  .mobileIcon {
+    position: fixed;
+    top: 79%;
+    left: 84%;
+  }
+  .hm img,
+  .sh img,
+  .ac img,
+  .w img,
+  .c img {
+    width: 100%;
+    height: 100%;
+  }
+  .upIcon img {
+    width: 50px;
+    height: 50px;
+  }
+  .infoIcon img {
+    width: 60px;
+    height: 60px;
+  }
+  .navMobile {
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0;
+    background-color: #ffffff;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .wl,
+  .cr {
+    position: relative;
+  }
+  .wl .nb img {
+    position: absolute;
+    top: 1%;
+    left: 55%;
+    width: 15px;
+    height: 15px;
+  }
+  .cr .nb img {
+    position: absolute;
+    position: absolute;
+    top: 1%;
+    left: 55%;
+    width: 15px;
+    height: 15px;
+  }
+  .product {
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+  }
+  .prdMbl-container {
+    padding: 0 5vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  .prdMbl-container::-webkit-scrollbar {
+    display: none;
+  }
+  .prdMbl-card {
+    flex: 0 0 auto;
+    width: 185px;
+    height: 387px;
+    margin-right: 5%;
+  }
+  .prdMbl-img {
+    /* position: relative; */
+    width: 185px;
+    height: 246px;
+    overflow: hidden;
+  }
+  .prdMbl-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .pre-btn,
+  .nxt-btn {
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 9;
+  }
+  .pre-btn img,
+  .nxt-btn img {
+    opacity: 0.8;
+  }
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+    opacity: 1;
+  }
+  
+}
+
+.crs .carousel-inner {
+  padding: 1em;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .crs .carousel-item {
+    margin-right: 0;
+    flex: 0 0 33.333333%;
+    display: block;
+  }
+  .crs .carousel-inner {
+    display: flex;
+  }
+}
+.card .img-wrapper {
+  max-width: 100%;
+  height: 13em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card img {
+  max-height: 100%;
+}
+@media (max-width: 767px) {
+  .card .img-wrapper {
+    height: 17em;
+  }
+}
