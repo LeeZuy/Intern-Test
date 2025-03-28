@@ -44,16 +44,13 @@ body {
   font-size: 10px;
 }
 .collapse a {
-  font-family: "Jost", sans-serif;
   font-size: 16px;
 }
 .carousel-indicators {
-  /* Đảm bảo indicators nằm ở dưới carousel */
   bottom: 10px;
 }
 
 .carousel-indicators button {
-  /* Biến chấm ngang thành chấm tròn */
   width: 10px !important;
   height: 10px !important;
   border-radius: 50% !important;
@@ -128,7 +125,6 @@ body {
 }
 
 .featured {
-  font-family: "Jost", sans-serif;
   text-align: center;
 }
 .collections {
@@ -204,7 +200,6 @@ body {
   margin-top: 75px;
 }
 .new {
-  font-family: "Jost", sans-serif;
   text-align: center;
 }
 .new h2 {
