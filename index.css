@@ -612,7 +612,7 @@ hr {
   .w img,
   .c img {
     width: 100%;
-    height: 40px;
+    height: 100%;
   }
   .upIcon img {
     width: 50px;
@@ -627,6 +627,7 @@ hr {
     top: 95%;
     background-color: #ffffff;
     align-items: center;
+    width: 100%;
   }
   .wl,
   .cr {
@@ -699,6 +700,7 @@ hr {
   .nxt-btn:hover img {
     opacity: 1;
   }
+  
 }
 
 .crs .carousel-inner {
