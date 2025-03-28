@@ -611,7 +611,7 @@ hr {
   .ac img,
   .w img,
   .c img {
-    width: 86px;
+    width: 100%;
     height: 40px;
   }
   .upIcon img {
